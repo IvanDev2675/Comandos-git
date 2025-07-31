@@ -1,0 +1,4 @@
+git merge <nombre_rama> >> esto lo quenhace es fucionar la rama en la que cree el file que deseo unir a la rama master
+                           debo estar desde fuera de <nombre_rama> y dentro de la rama que deseo fucionar
+git reset --hard 54a8e >> si por error fucione una rama que no deseo entonces hago reset y pongo el hash del ultimo commit al que deseo volver
+git branch -d <nombre_rama> >> una vez hay hecho la fucion, elimino la rama creada y los cambios se quedaran en la rama main

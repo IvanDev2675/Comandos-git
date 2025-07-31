@@ -1,0 +1,19 @@
+inicialmente debemos entender que hay tres ciclos con los archivos en git
+1-en local
+2-subir el archivo al staged
+3-commit 
+
+Debemos configurar el sello de nuestro git de manera local
+git config --global user.name "Mateo sosa"
+git config -- global user.email "Mateo@gmail.com"
+estos datos apareceran en los commit
+
+git config --list >> muestra una lista de las configuraciones 
+git config --global --list >> muestra las configuraciones que tenga ya establecidas en global
+git config --local --list >> muestra las configuraciones que tenga en los repositorios iniciados
+git config --global core.editor "code --wait">> establezco a vs code como editor global
+git config --global color.ui true >> me configura el color de la interfaz de git, para que devuelva colores mas bonitos
+git config --global core.autocrlf true>> carrier return line fine, configura el salto de linea de windows para que no tenga problemas con otros sistemas operativos y sus saltos de 
+git config --global core.abbrev 5 >> aqui establezco que el hash de los commits sea de 5 caracteres solamente
+git config --global --add safe.directory C:/Users/higur/repo >> me da permiso para acceder, es decir establece que el repositorio es seguro y que puede accer otro usuario que no sea el admin ya que git lo detecto como peligroso
+                                                                esto ocurre cuando descargo o abro un repositiorio desconocido.

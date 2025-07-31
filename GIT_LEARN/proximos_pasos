@@ -1,0 +1,10 @@
+git stash >> guardar cambios que no estan comprometidos
+si debo dejar lo que estoy haciendo por algun motivo, y no se puede agregar al area de staged ni hacer commits 
+lo que hago es hacer git stash para almacenarlo pero no comprometerlo con los cambios hasta que lo termine y haga git add y git commits
+cherry-pick >> metodo de fusionar ramas, un commit meterlo en una rama en esspecifico solamente
+milestones >> agrupar los issues
+rebase y squash >> profundizar mas 
+squash >> fusionar muchos commits en uno y ese solo commit agregarlo a la rama master
+submodulos >> meter un repo en otro repoe
+git hooks >> ejecutar script  es como un trigger
+git bisec >> permite rastrear desde donde el codigo funcionaba hasta el commit que ya se danio

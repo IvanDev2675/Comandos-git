@@ -1,0 +1,10 @@
+git branch >> me muestra las ramas que tenga
+git branch modificar-dev >> me crea una rama llamada modificar-dev
+git checkout modificar-dev>> me mueve a esta rama para trabajar en ella
+git switch modificar-dev >> me mueve a esta rama para trabajar en ella (para movernos entre ramas es la mas usada)
+git switch -c rama-nueva-temporal >> este comando me crea una rama del main y me ubica en ella
+git branch -d rama-nueva-temporal >> me borra la rama creada pero debo estar fuera de ella
+git branch -m modificar-dev modificar-texto >> se hace para cambiar el nombre de una rama estando desde otra rama, en este caso estaba desde master 
+git branch -m cambiar-texto >> aqui cambio el nombre de la rama desde la misma rama, especifico el nombre nuevo solamente
+
+

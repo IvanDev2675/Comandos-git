@@ -1,0 +1,13 @@
+el git ignore es un archivo llamado .gitignore
+dentro de la carpeta debo especificar los archivos que deseo ignorar
+*.txt >> me ignorara todos  los file terminados en .txt
+!archivo_importante.txt >> no me ignorara este archivo en especifico
+carpeta/ >> ignorara esta carpeta como tal y todos sus archivos
+carpeta/*.txt ignorara todo los archivos que terminen en .txt que esten dentro de esa carpeta
+git ls-tree -r --name-only a86e6 >> con esto pido el nombre de los archivos del commit especificado, o que hayan quedado guardado en el ultimo commit
+                                    asi verifico si el ignore se cumplio
+git config --global core.excludesfile c:/.git_ignore_global >> aqui lo que se hace es crear un archivo con los ignore 
+                                                              y cada vez que tenga un repositorio solo hago esta configuracion global
+                                                              debo tener en cuenta que si necesito excluir un archivo especifico debo crear
+                                                              un .gitignore local dentro del repositorio y especificar el !archivo_importante.txt
+

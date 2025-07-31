@@ -1,0 +1,7 @@
+para migrar repositorio local al remoto debo crear el repo en github
+luego desde el git bash y dentro de la carpeta que deseo alojar 
+hago este comando que me lo da el mismo github
+git remote add <name_repo> url 
+git remote -v >> me deja ver si el archivo ya esta conectado y me deja ver lo que puedo hacer push,fetch etc...
+git branch -m main >>
+git push -u origin main >> configura automaticamente que siempre los push se hagan al mismo lugar, ya solo se hace git push 

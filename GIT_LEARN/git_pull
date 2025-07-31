@@ -1,0 +1,2 @@
+git pull > me baja los cambios que se hayan hecho en el servidor o repositorio original remoto
+           git pull lo que hace es git fetch y git merge. me baja los cambios y luego los fusiona a la rama principal de mi local

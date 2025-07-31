@@ -1,0 +1,12 @@
+git commit --amend >> con esto modifico el ultimo head ubicado en el ultimo commit  
+git rebase -i head~3 >> esto me ubica en el commit 3 anterior al ultimo commit
+                         me saldra el vs code con los commits y de cambiar la palabra pickud por edit.
+                         ahora una vez ya ubique el head en el commit que deseo editar entonces hago los cambios, edito, elimino, etc...
+                         luego hago el git add . hago el git commit --amend.
+                         si miro el git status me va a mostrar el head ubicado 3 posiciones antes, entonces aqui debo hacer rebase
+git rebase --continue >> me establece las ramas o los commits como estaban e incluye los cambios 
+git reset --soft 45a55 >> posiciono el head en el commit especificado, y los commits posteriores a este commit los movio para staged
+git reset --soft head~1 >> me posiciona 1 lugar atras del ultimo head, hace los mismo que el comando anterior
+git reset --mixed 5asd8 >> elimina los commits posteriores pero devuelve los archivos al working directory (local) tal y como estaban en el commit
+git reset --hard 5asd8 >> elimina los cambios posteriores a ese commit tanto del staged como del  working directory
+git reset --hard head~1 >> lo que hace es eliminar el ultimo commit y me posiciona en el anterior

@@ -1,0 +1,4 @@
+se necesita clonar el repositorio remoto a nuestro entorno local para poder trabajar en el
+git clone https://github.com/usuario/proyecto.git mi-carpeta>> me clona el repositorio remoto y lo almacena en una carpeta <mi-carpeta>
+git clone --depth 1 https://github.com/usuario/proyecto.git >> clona el ultimo commmit del repo remoto, esto es ideal para repositorios muy grandes
+git clone -b desarrollo https://github.com/usuario/proyecto.git >> esto me clona una rama en especifico del repo remoto

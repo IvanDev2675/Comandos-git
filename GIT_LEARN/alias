@@ -1,0 +1,3 @@
+$ git config --global alias.log-mejorado "log --oneline  --graph --all --pretty=format:'%C(auto)$h%d %s %C(black)%C(bold)%cr'"
+esto lo que hace es  que a la proximma que yo ejecute git log-mejorado me va a aparecer todos los commits con su hora
+es decir almacene un comando en una palabra log-mejorado

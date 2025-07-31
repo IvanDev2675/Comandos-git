@@ -1,0 +1,3 @@
+git reflog >> en casoo de que haga clear y pierda el rastro de  un hash commit al que deseo volver
+              hago reflog y esto me mostrara el historial de head, alli vere todos los hash de head y podre
+              hacer git reset --hard 215df

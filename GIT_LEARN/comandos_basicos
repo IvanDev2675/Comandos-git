@@ -1,0 +1,38 @@
+cd repo >> me abre la carpeta repo
+cd ../ >> navega hacia atras de las carpetas
+cd .. >> navega atras dentro de una carpeta
+
+mkdir repo >> creo una carpeta llamada repo, debo ubicarme dentro del lugar que deseo crearla
+rmdir repo >> elimine la carpeta llamada repo
+
+
+git init >> inicializa un repositorio, debo estar ubicado dentro de la carpeta que desee, en este caso la carpeta repo
+ls >> me muestra los archivos que he creado dentro de la carpeta repo
+ls -s >> me da el numero total de archivos dentro de la carpeta
+pwd >> me devuelve la ruta en donde me encuentro /c/repo
+cd .git >> entro a la carpeta del repositorio como tal
+ls -a>> me muestra los archivos ocultos dentro de la carpeta
+
+touch readme.txt >> me crea el archivo dentro de la carpeta en que este ubicado
+echo "Holaaaa mundo" >> readme.txt   >> lo que hace es escribir ese mensaje dentro de la carpeta
+git add . >> agrega al staged todos los archivos modificados o nuevos
+git add <name.file> <name.file2>  >> agrega ese archivo en especifico al area de staged
+git rm --cached <name.file> >> me borra ese archivo en especifico del staged y lo deja de rastrear (untracked) para futuros commits.
+git status >> esto lo que hace es mostrarme el status de todo
+git status -s >> me muestra los status mas resumidos 
+git commit -m "nombre del commit" >> hace commit
+git commit -m "nombre del commit" -a >> me hace staged y commit a la vez
+rm <name.file> >> me remueve este archivo como tal de local fisicamente
+git restore <name.file> >> si lo borre entonces esto lo devuelve al staged
+git checkout <name.file> >> devuelve a la ultima version del archivo, devuelve el archivo como estaba en el ultimo commit. pero no debo haber hecho staged 
+git reset --hard >> lo mismo que checkout pero esto si retorna el archivo como estaba sin importar que ya haya hecho staged 
+git mv <name.file> <new.name.file> >> cambio el nombre del archivo 
+git show <name.file> >> me muestra los detalles de este archivo como tal que este commiteado 
+git diff --staged >> me muestra la diferencia entre un archivo que este comiteado y su nueva version editada y NO comiteada
+git diff cdk57  g548d >> me muestra la diferencia de dos archivos commiteados
+git diff --word-diff cdk57 g548d >> me muestra la diferencia entre dos archivos pero en sus parrafos como tal
+git log >> me muestra los commits hechos con sus respectivos detalles
+git log --oneline >> me muestra los mismo, los commits pero en una abreviatura
+git log --oneline --all >> esto me muestra todos los commits de todas las ramas
+git log --oneline --all --graph >> me muestra visualmente como va la secuencia de los commits y los merges
+ 

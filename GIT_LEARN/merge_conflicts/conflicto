@@ -1,0 +1,6 @@
+lo que ocurre cuando hay merge conflict es que al yo crear una rama de un main
+lo que estoy creando es una copia tal cual de la rama main o master, en la rama 
+voy a tener todo el historial del main pero apartir de que yo comience a hacer cambios en la rama
+la rama main no tendra los cambios o el historial de la rama hasta que haga la fusion
+pero si en ese transcurso en el que yo haga la fusion, he modificado o hecho un commit en la rama main
+me generara conflictos a la hora de hacer la fusion de la rama

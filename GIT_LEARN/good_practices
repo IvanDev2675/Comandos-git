@@ -1,0 +1,9 @@
+declarar el git config --global user.name ""
+declarar el git config --global user.email ""
+cada rama que se crea debe seguir el solid <principio de responsabilidad unicaa> cada rama debe cumplir una tarea
+y se debe eliminar esta rama una vez se haga el merge
+los commits se hacen de forma atomica, se hace por cada cambio satisfactorio. cada que arregle una funcionalidad, no 
+debo hacer commits cada que vaya a almorzar, o cada que termine la jornada laboral.
+commits descriptivos en sus titulos
+**usar tags
+**investigar sobre branchs metods
